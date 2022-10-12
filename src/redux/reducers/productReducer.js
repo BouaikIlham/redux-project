@@ -4,7 +4,7 @@ const initialstate = {
     products: [{
         id: 1,
         title: "ilham",
-        category: "clouths"
+        category: "programmer"
     }]
 }
 
