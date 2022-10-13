@@ -8,8 +8,9 @@ export const setProducts = (products) => {
 
 
 export const selectedProduct = (product) => {
+    // console.log(product)
     return {
         type: ActionTypes.SELECTED_PRODUCT,
-        paylaod: product,
+        payload: product,
     };
 };
